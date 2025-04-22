@@ -9,11 +9,11 @@
 
   <!-- Road -->
   <include>
-    <uri>model://asphalt_road</uri>
+    <uri>model://road</uri>
     <pose>0 0 0 0 0 0</pose>
   </include>
 
-  <!-- Cars -->
+  <!-- Cars 
   <include>
     <uri>model://car_blue</uri>
     <pose>2 1 0 0 0 0</pose>
@@ -21,19 +21,20 @@
   <include>
     <uri>model://car_red</uri>
     <pose>4 -1 0 0 0 0</pose>
-  </include>
+  </include>-->
 
-  <!-- People -->
+
   <include>
     <uri>model://walking_person</uri>
     <pose>1 -2 0 0 0 0</pose>
   </include>
+  <!-- People 
   <include>
     <uri>model://standing_person</uri>
     <pose>3 -2 0 0 0 0</pose>
-  </include>
+  </include>-->
 
-  <!-- Trees -->
+  <!-- Trees 
   <include>
     <uri>model://tree</uri>
     <pose>-2 2 0 0 0 0</pose>
@@ -41,9 +42,9 @@
   <include>
     <uri>model://tree</uri>
     <pose>6 2 0 0 0 0</pose>
-  </include>
+  </include>-->
 
-  <!-- Buildings -->
+  <!-- Buildings 
   <include>
     <uri>model://building_1</uri>
     <pose>8 0 0 0 0 0</pose>
@@ -51,15 +52,15 @@
   <include>
     <uri>model://building_2</uri>
     <pose>-6 0 0 0 0 0</pose>
-  </include>
+  </include>-->
 
-  <!-- Traffic Lights -->
+  <!-- Traffic Lights 
   <include>
     <uri>model://traffic_light</uri>
     <pose>0 3 0 0 0 0</pose>
-  </include>
+  </include>-->
 
-  <!-- Camera Vision (simulating drone or pole camera) -->
+  <!-- Camera Vision (simulating drone or pole camera) 
   <model name="road_camera">
     <pose>0 0 5 0 0 0</pose>
     <static>true</static>
@@ -82,5 +83,5 @@
         <visualize>true</visualize>
       </sensor>
     </link>
-  </model>
+  </model>-->
 </world>
