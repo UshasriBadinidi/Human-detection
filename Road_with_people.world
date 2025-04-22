@@ -13,7 +13,11 @@
     <pose>0 0 0 0 0 0</pose>
   </include>
 
- 
+ <include>
+    <uri>model://baylands</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include>
+
 
 
   <include>
